@@ -20,4 +20,4 @@ sudo gnome-extensions enable ding@rastersoft.com
 
 sudo apt full-upgrade -y
 
-dconf load /org/gnome/ < gnome-settings.conf
+sh load_set.sh
