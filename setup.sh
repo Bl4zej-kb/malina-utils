@@ -1,13 +1,14 @@
+sudo apt update
+
+sudo apt install software-properties-common
+
 add-apt-repository contrib
 add-apt-repository non-free
 add-apt-repository non-free-firmware
 
-
 sudo apt update
 
 sudo apt install -y curl gnome-software gnome-software-plugin-flatpak vim git fastfetch flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng python3 pip gnome-shell-extension-manager
-
-sudo apt update
 
 sudo curl -fsS https://dl.brave.com/install.sh | sh
 
